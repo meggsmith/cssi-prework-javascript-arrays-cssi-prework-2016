@@ -11,5 +11,29 @@ function addElementToArray(){
 }
 
 function accessThirdElementFromArray(){
-  addElementToArray
+  var states = ["Michigan", "Ohio", "Illinois", "Indiana"];
+  return(states[3]);
 }
+
+function replaceElementInArray(){
+  var names = ["Carrick", "Cady", "Callie"];
+  names [2] = "Carter";
+  return var names;
+}
+
+function removeElementFromArray(){
+  var dishes = ["Salad", "Casserole", "Pasta", "Chili", "Burger"];
+  var removedDishes = dishes.splice(2, 2, 'Roast Chicken')
+  return removeElementFromArray;
+}
+
+function iterateArray(){
+  var numbers = ["1", "2", "3", "4", "5"];
+  var newNums = new Array();
+    numbers.forEach(function(addition, index) {
+    var newNums = (numbers + 5);
+    return newNums;
+  }
+
+}
+
