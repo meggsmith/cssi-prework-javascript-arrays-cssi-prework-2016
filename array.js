@@ -1,39 +1,34 @@
-'use strict';
-function createArray() {
-  var createArray = ["snickers", "hundred grand"
-   "kitkat", "skittles"];
-  return createArray;
-}
+// 'use strict';
+// function createArray() {
+//   var snacks = ["snickers", "hundred grand",
+//    "kitkat", "skittles"];
+//   return snacks;
+// }
 
-function addElementToArray(){
-  addElementToArray.push("A Christmas Story");
-  return addElementToArray;
-}
+// function addElementToArray(myArray){
+//   myArray.push("A Christmas Story");
+//   return myArray;
+// }
 
-function accessThirdElementFromArray(){
-  var states = ["Michigan", "Ohio", "Illinois", "Indiana"];
-  return(states[3]);
-}
+// function accessElementFromArray(myArray){
+//   return(myArray[2]);
+// }
 
-function replaceElementInArray(){
-  var names = ["Carrick", "Cady", "Callie"];
-  names [2] = "Carter";
-  return var names;
-}
+// function replaceElementInArray(myArray){
+//   myArray[1] = "Carter";
+//   return myArray;
+// }
 
-function removeElementFromArray(){
-  var dishes = ["Salad", "Casserole", "Pasta", "Chili", "Burger"];
-  var removedDishes = dishes.splice(2, 2, 'Roast Chicken')
-  return removeElementFromArray;
-}
+// function removeElementFromArray(myArray){
+//   myArray.splice(2, 3, 'Roast Chicken');
+//   return myArray;
+// }
 
-function iterateArray(){
-  var numbers = ["1", "2", "3", "4", "5"];
-  var newNums = new Array();
-    numbers.forEach(function(addition, index) {
-    var newNums = (numbers + 5);
-    return newNums;
-  }
+// // function iterateArray(myArray){  <--creating a new function that accepts an array of numbers as a parameter
+//     var newNums = new Array(); <--using the 'construct array' method to store an empty array in the newNums variable
+//     myArray.forEach(function(addition, index) { <--iterating on each number in 'myArray', adding second function to tell it we are doing addition and to keep track of the place
+//      var newNums = (index + 5); adding 5 to each number in 'myArray', storing the added numbers to the new array newNums
+//      return newNums; retun new array with larger numbers
+//   }
 
-}
 
